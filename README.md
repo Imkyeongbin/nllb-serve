@@ -2,6 +2,11 @@
 
 This project offers a web interface and REST API to Meta's No Language Left Behind (NLLB) models that can translate across 200 languages.
 
+## Notice after fork
+
+I changed requirements.txt
+Now this program will use GPU(NVIDIA - CUDA)
+Basically, pip will install pytorch for CUDA 11.8
 
 ## Setup
 
