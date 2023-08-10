@@ -16,6 +16,8 @@ Basically, pip will install pytorch for CUDA 11.8
 git clone  https://github.com/thammegowda/nllb-serve
 cd nllb-serve
 pip install -e .
+# install pytorch for gpu cuda
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 # either one of these should work
 nllb-serve -h
